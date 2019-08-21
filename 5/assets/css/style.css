@@ -181,19 +181,41 @@
 .barra_pesquisa_index {
   object-fit: cover;
   left: 900px;
-  top: -10px;
+  bottom: 10px;
   width: 400px;
   height: 100px;
   position: absolute;
 }
 
+.titulo_jogo{
+  display: inline-block;
+  margin-left: 220px;
+  position: relative;
+  bottom: 30px;
+  background-color: gold;
+  font-size: 80px;
+}
 
+.jogo_img {
+  object-fit: cover;
+  left: 650px;
+  top: 60px;
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
 
+.topic {
+  position: relative;
+  left: 720px;
+  top: 60px;
+}
 
-
-
-
-
+.answer {
+  position: relative;
+  left: 720px;
+  top: 60px;
+}
 
 
 
