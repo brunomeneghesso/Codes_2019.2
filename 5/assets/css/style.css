@@ -1,18 +1,226 @@
-h1 {
-  font-size: 2em;
-  padding-top: 50px;
-  width: 100%;
-  font-family: Georgia;
-  text-align: center;
+
+
+.logo {
+  position: relative;
+  left: 60px;
+  top: 10px;
+  width: 300px;
+  height: 150px;
 }
-p {
-  padding-left:450px
-	
+.titulo_prototip_digital{
+  display: inline-block;
+  margin-left: 80px;
+  position: relative;
+  bottom: 30px;
+  background-color: gold;
+  font-size: 80px;
 }
-  
-ul {
-  padding-left:470px
+
+.img_jogo {
+  object-fit: cover;
+  left: 600px;
+  top: 60px;
+  width: 400px;
+  height: 250px;
+  position: relative;
 }
-body {
-  background-color:#e8d276
+
+.img_portfolio {
+  object-fit: cover;
+  left: 600px;
+  top: 100px;
+  width: 400px;
+  height: 250px;
+  position: relative;
 }
+.img_dados {
+  object-fit: cover;
+  left: 600px;
+  top: 140px;
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+.img_app {
+  object-fit: cover;
+  left: 600px;
+  top: 180px;
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+
+.text_jogo {
+  position: relative;
+  left: 600px;
+  bottom: 100px;
+}
+
+.text_portfolio {
+  position: relative;
+  left: 600px;
+  bottom: 60px;
+}
+
+.text_dados {
+  position: relative;
+  left: 600px;
+  bottom: 20px;
+}
+
+.text_app {
+  position: relative;
+  left: 600px;
+  top: 20px;
+}
+
+.barra_localizacao {
+  object-fit: cover;
+  left: 51px;
+  top: 220px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+}
+
+.barra_pesquisa_categ {
+  object-fit: cover;
+  left: 46px;
+  top: 320px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+}
+
+.link_projetos_prototipacao_fisica {
+  position: absolute;
+  left: 120px;
+  top: 460px;
+  font-size: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.link_projetos_matematica {
+  position: absolute;
+  left: 120px;
+  top: 510px;
+  font-size: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.img_soldador {
+  position: relative;
+  left: 60px;
+  top: 60px;
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.port_descricao {
+  left: 60px;
+  top: 90px;
+  position: relative;
+}
+
+.nome {
+  left: 60px;
+  top: 90px;
+  position: relative;
+  font-size: 20px;
+}
+
+.title_index {
+  display: inline-block;
+  margin-left: 280px;
+  position: relative;
+  top: 10px;
+  background-color: gold;
+  font-size: 80px;
+}
+.sections-menu {
+  position: relative;
+  left: 450px;
+  bottom: 245px;
+  width: 1024px;
+  text-align: left;
+}
+
+.sections-menu-item {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 250px;
+  background-color: gold;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+
+.sections-menu-item-image {
+
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 250px;
+}
+
+.sections-menu-item-text {
+  position: relative;
+  left: 140px;
+  top: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.barra_pesquisa_index {
+  object-fit: cover;
+  left: 900px;
+  top: -10px;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
