@@ -4,10 +4,10 @@
 	align-items: center;
 	font-size: 43px;
 	color:white;
-	background-image: linear-gradient(black,#0a3fa6);
+	background-image: linear-gradient(black,#081326);
 	border-color: black;
-	border-bottom-left-radius: 1000px;
-	border-bottom-right-radius: 1000px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 	border-style: solid;
@@ -24,7 +24,10 @@
 	width: 22%;
 	margin-left: 8%;
 }
-
+.local {
+	font-size: 1.5rem;
+	display: inline-flex;
+}
 .titulo_prototip_digital {
 	;margin-right: 10%;
 }
