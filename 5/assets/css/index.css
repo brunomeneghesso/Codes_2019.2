@@ -1,0 +1,68 @@
+.inicial{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+	height: 300px;
+}
+
+.logo{
+	width: 200px;
+	height:50px;
+	margin: auto; 
+}
+
+.img_soldador{
+	width: 200px;
+	height: 200px;
+	margin: ;
+
+}
+
+.nome{
+
+}
+
+.port_descricao{
+
+}
+
+
+.menu{	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-start;
+}
+
+.tittle_index{
+
+}
+
+.sections-menu{}
+
+.sections-menu-item{}
+
+
+.sections-menu-item-image{}
+
+.sections-menu-item-text
+
+
+.barra_pesquisa_index{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;
+	height: 300px;
+}
+
+
+
+
