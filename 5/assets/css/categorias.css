@@ -10,7 +10,6 @@
 	font-size: 2rem;
 	border-radius: 0.5rem;
 	min-height: 5rem;
-
 }
 
 .img_prototipacao_digital {
@@ -103,23 +102,8 @@
 	font-size: 1.5rem;
 }
 
-.barra_localizacao {
-	width: 400px;
-	height: 50px;
-	object-fit: fill;
-	margin-top: -0.5rem;
-	border-radius: 0.5rem;
-
-}
-
 .barra_pesquisa_categ {
 	width: 400px;
 	height: 80px;
 	object-fit: fill;
-}
-
-.link_projetos_prototipacao_fisica {
-}
-
-.link_projetos_matematica {
 }
