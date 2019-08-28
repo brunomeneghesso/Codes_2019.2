@@ -10,6 +10,9 @@
 	font-size: 2rem;
 	border-radius: 0.5rem;
 	min-height: 5rem;
+	border-color: #e8e9eb;
+	border-width: 1rem;
+	border-style: solid;
 }
 
 .img_prototipacao_digital {

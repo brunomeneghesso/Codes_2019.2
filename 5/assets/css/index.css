@@ -1,6 +1,6 @@
 .barra_pesquisa_index {
-	width: 450px;
-	height: 95px;
+	width: 450px; /*imagem em pixels*/
+	height: 95px; /*imagem em pixels*/
 	object-fit: fill;
 	display: flex;
 	margin-right: 10%;
@@ -67,6 +67,6 @@
 }
 
 .section-menu-item-image {
-	width: 300px;
-	height: 200px;
+	width: 300px; /*imagem em pixels*/
+	height: 200px; /*imagem em pixels*/
 }

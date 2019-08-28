@@ -16,7 +16,10 @@
 	font-size: 2rem;
 	border-radius: 0.5rem;
 	min-height: 5rem;
-	max-width: 36%; 
+	max-width: 36%;
+	border-color: #e8e9eb;
+	border-width: 1rem;
+	border-style: solid;
 }
 .local_jogo {
 	font-size: 1.2rem;
