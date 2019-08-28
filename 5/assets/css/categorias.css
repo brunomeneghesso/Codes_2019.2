@@ -37,6 +37,7 @@
 	padding: 1rem;
 	text-align: justify;
 	border-radius: 0.5rem;
+	line-height: 1.2;
 
 }
 
@@ -88,22 +89,34 @@
 
 .text_jogo {
 	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 .text_portfolio {
 	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 .text_dados {
 	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 .text_app {
 	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 .barra_pesquisa_categ {
 	width: 400px;
 	height: 80px;
 	object-fit: fill;
+}
+
+.link_projetos_prototipacao_fisica {
+	font-family: 'Roboto', sans-serif;
+}
+
+.link_projetos_matematica {
+	font-family: 'Roboto', sans-serif;
 }

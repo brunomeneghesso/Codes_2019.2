@@ -3,6 +3,7 @@
 	justify-content: space-between;    
 	align-items: center;
 	font-size: 2.5rem;
+	font-family: 'Merriweather', serif;
 	color:white;
 	background-image: linear-gradient(black,#081326);
 	border-color: black;
@@ -36,6 +37,10 @@
 }
 .body {
 	background-image: linear-gradient(#0e2c66,black);
-	font-family: Arial
+	font-family: 'Noto Serif', serif;
 	/*background-image: url("https://wallpaperaccess.com/full/334517.jpg");*/
+}
+
+.local_title {
+	font-family: 'Roboto', sans-serif;
 }
