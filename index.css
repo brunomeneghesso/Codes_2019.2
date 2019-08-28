@@ -1,0 +1,109 @@
+.inicial{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: space-around;
+	height: 300px;
+}
+
+.logo{
+	width: 360px;
+	height: 250px;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.img_soldador{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+
+}
+
+.nome{
+	width: 400px;
+	height: 50px;
+	object-fit: fill;
+	margin-top: 5rem;
+	border-radius: 0.5rem;
+
+}
+
+.port_descricao{
+
+}
+
+
+.menu{	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+
+.tittle_index{
+	order:2;
+	margin-right: 6%;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 1rem;
+	margin-left: -5%;
+	background-color: #e8e9eb;
+	max-width: 20rem;
+	padding: 1rem;
+	text-align: justify;
+	border-radius: 0.5rem;
+
+}
+
+.protfis{
+	width: 400px;
+	height: 250px;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+
+.protdig{
+	width: 400px;
+	height: 250px;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+
+
+.mat{
+	width: 400px;
+	height: 250px;
+	margin: 2rem;
+	object-fit: fill;
+	border-width: 0.005rem;
+	border-style: solid;
+	border-color: black;
+}
+
+.sections-menu-item-text
+
+
+.barra_pesquisa_index{
+}
+
+
+
+
