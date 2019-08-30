@@ -1,6 +1,6 @@
 .barra_pesquisa_index {
-	width: 450px; /*imagem em pixels*/
-	height: 95px; /*imagem em pixels*/
+	width: 28rem;
+	height: 6rem;
 	object-fit: fill;
 	display: flex;
 	margin-right: 10%;
@@ -21,7 +21,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background-color: #e6e8ff;
+	background-color: #E8E9EB;
 	max-width: 80%;
 }
 
@@ -34,7 +34,7 @@
 
 }
 .descricao {
-	background-color: #e6e8ff;
+	background-color: #E8E9EB;
 	padding-left: 1rem;
 	border-radius: 1rem;
 	max-width: 26.4rem;
@@ -43,8 +43,8 @@
 }
 
 .img_soldador {
-	width: 400px;
-	height: 250px;
+	width: 25.5rem;
+	height: 16rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
@@ -57,9 +57,10 @@
 }
 .projetos {
 	margin-left: 10%;
-	background-color: #e6e8ff;
+	padding-top: 1rem;
+	background-color: #E8E9EB;
 	border-radius: 1rem;
-	margin-right: 0%;
+	margin-right: -5rem;
 	max-width: 59%;
 	display: flex;
 	flex-direction: column;
@@ -67,6 +68,6 @@
 }
 
 .section-menu-item-image {
-	width: 300px; /*imagem em pixels*/
-	height: 200px; /*imagem em pixels*/
+	width: 17rem;
+	height: 12rem;
 }

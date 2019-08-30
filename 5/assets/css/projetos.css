@@ -12,12 +12,12 @@
 	align-items: center;
 	margin-bottom: 20%;
 	margin-left: 1%;
-	background-color: #e6e8ff;
+	background-color: #E8E9EB;
 	font-size: 2rem;
 	border-radius: 0.5rem;
 	min-height: 5rem;
 	max-width: 36%;
-	border-color: #e6e8ff;
+	border-color: #E8E9EB;
 	border-width: 1rem;
 	border-style: solid;
 }
@@ -34,7 +34,7 @@
 	font-size: 1rem;
 	margin-left: 0;
 	margin-right: 30%;
-	background-color: #e6e8ff;
+	background-color: #E8E9EB;
 	max-width: 50%;
 	padding: 1rem;
 	text-align: justify;
@@ -43,8 +43,8 @@
 }
 .img_jogo {
 	order:0;
-	width: 700px;
-	height: 400px;
+	width: 40rem;
+	height: 25rem;
 	object-fit: fill;
 	border-width: 0.005rem;
 	border-style: solid;
@@ -55,15 +55,14 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	background-color: #e6e8ff;
+	background-color: #E8E9EB;
 	border-radius: 0.5rem;
-	border-color: #e8e9eb;
-	border-width: 0.1rem;
+	border-width: 0rem;
 }
 
 .barra_pesquisa_categ {
-	width: 400px;
-	height: 80px;
+	width: 25rem;
+	height: 5rem;
 	object-fit: fill;
 }
 .topic {
