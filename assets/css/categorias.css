@@ -123,3 +123,10 @@
 .link_projetos_matematica {
 	font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 68rem) {
+  /*.section-list {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }*/
+}
