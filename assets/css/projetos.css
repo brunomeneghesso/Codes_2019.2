@@ -81,3 +81,45 @@
 .link_projetos_matematica {
 	font-family: 'Roboto', sans-serif;
 }
+@media (max-width: 68rem) {
+	.barra_lateral, .barra_pesquisa_categ, .link_projetos_prototipacao_fisica, .link_projetos_matematica{
+		display: none;
+	}
+	.local_jogo {
+		font-size: 1.2rem;
+		display: inline-flex;
+	}
+	.text_jogo {
+		order:0;
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-size: 1rem;
+		margin-left: 2%;
+		margin-right: 2%;
+		background-color: #E8E9EB;
+		max-width: 96%;
+		padding: 1rem;
+		text-align: justify;
+		border-radius: 0.5rem;
+	}
+	.img_jogo {
+		order:0;
+		width: 58rem;
+		height: 25rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		margin-left: 0rem;
+		margin-right: 0;
+		margin-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		background-color: #E8E9EB;
+		border-radius: 0.5rem;
+		border-width: 0rem;
+	}
+}
