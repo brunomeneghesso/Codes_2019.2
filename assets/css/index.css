@@ -71,3 +71,25 @@
 	width: 17rem;
 	height: 12rem;
 }
+
+@media (max-width: 68rem) {
+
+.container {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.descricao{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.section-menu {
+	display: flex;
+	font.size: 3.5rem
+
+}
+
