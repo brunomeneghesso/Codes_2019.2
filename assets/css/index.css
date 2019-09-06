@@ -83,7 +83,7 @@
 .descricao{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-content: center;
 
 }
@@ -94,3 +94,9 @@
 
 }
 
+.port_descricao{
+	display: flex;
+	justify-content: space-around;
+	font-size: 4rem
+	
+}
