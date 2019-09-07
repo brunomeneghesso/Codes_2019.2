@@ -36,7 +36,9 @@
 .descricao {
 	background-color: #E8E9EB;
 	padding-left: 1rem;
+	flex-direction: column;
 	border-radius: 1rem;
+	display: flex;
 	max-width: 26.4rem;
 	margin-bottom: 15%;
 	font-size: 1.5rem;
@@ -72,31 +74,146 @@
 	height: 12rem;
 }
 
-@media (max-width: 68rem) {
-
-.container {
-	display: flex;
-	flex-direction: column;
-
+.section-menu-item-text {
+	font-size: 1rem;
 }
 
-.descricao{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-content: center;
-
-}
-
-.section-menu {
-	display: flex;
-	font.size: 3.5rem
-
+.title_categ {
+	display: none;
 }
 
 .port_descricao{
 	display: flex;
 	justify-content: space-around;
-	font-size: 4rem
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	align-self: flex-start;
+	text-align: justify;
+	padding-right: 1rem;
 	
+}
+
+.title_index {
+	display: inherit;
+}
+
+.title_port {
+	display: none;
+}
+
+.folhaum {
+	display: none;
+}
+@media (max-width: 68rem) {
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 0%;
+
+	}
+
+	.descricao{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0rem;
+		width: 50rem;
+		margin-top: 1rem;
+		padding-left: 0rem;
+		border-radius: 1rem;
+		max-width: 100rem;
+		margin-bottom: 15%;
+		padding: 1rem 1rem;
+	}
+
+	.img_soldador {
+		width: 20rem;
+		height: 12rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		display: flex;
+		align-self: center;
+		border-radius: 1rem;
+	}
+
+	.projetos {
+		margin-left: 0%;
+		padding-top: 1rem;
+		background-color: #E8E9EB;
+		border-radius: 1rem;
+		margin-right: 0rem;
+		max-width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.section-menu {
+		display: flex;
+		font.size: 3.5rem
+
+	}
+
+	.port_descricao{
+		display: flex;
+		justify-content: space-around;
+		font-size: 2rem;
+		line-height: 2rem;
+		align-self: center;
+		margin-left: 1rem;
+		text-align: justify;
+	}
+
+	.section-menu-item {
+		display: flex;
+		flex-direction: row;
+		margin: 1.2rem;
+		text-align: center;
+	}
+
+	.title_categ {
+		display: flex;
+		font-size: 3.5rem;
+		align-self: flex-start;
+		margin-left: 5rem;
+		margin-bottom: 1rem;
+	}
+
+	.title_index {
+		display: none;
+	}
+
+	.section-menu-item-text {
+		font-size: 2rem;
+		margin-left: 1rem;
+	}
+
+	.title_port {
+		display: flex;
+		font-size: 4.96rem;
+		color: #E8E9EB;
+		border-radius: 1rem;
+	}
+
+	.barra_pesquisa_index {
+		display:none;
+		width: 0rem;
+		height: 0rem;
+		order: 5000;
+	}
+
+	.logo {
+		display: flex;
+		align-self: center;
+	}
+
+	.folhaum {
+		display: flex;
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 3.5rem;
+		margin-right: 5rem;
+	}
 }

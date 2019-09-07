@@ -4,6 +4,10 @@
 	margin-top: 5%;
 }
 
+.logo {
+	display: flex;
+}
+
 .barra_lateral {
 	order:-1;
 	display: flex;
@@ -81,6 +85,10 @@
 .link_projetos_matematica {
 	font-family: 'Roboto', sans-serif;
 }
+
+.home_icon {
+	display: none;
+}
 @media (max-width: 68rem) {
 	.barra_lateral, .barra_pesquisa_categ, .link_projetos_prototipacao_fisica, .link_projetos_matematica{
 		display: none;
@@ -106,8 +114,8 @@
 	}
 	.img_jogo {
 		order:0;
-		width: 58rem;
-		height: 25rem;
+		width: 42rem;
+		height: 24rem;
 		object-fit: fill;
 		border-width: 0.005rem;
 		border-style: solid;
@@ -121,5 +129,23 @@
 		background-color: #E8E9EB;
 		border-radius: 0.5rem;
 		border-width: 0rem;
+	}
+
+	.titulo_jogo {
+		display: flex;
+		align-self: center;
+		font-size: 3.0rem;
+		width: 40rem;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.home_icon {
+		display: flex;
+		height: 5rem;
+		margin-right: 7rem;
+		margin-left: 4rem;
 	}
 }

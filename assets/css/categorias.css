@@ -124,9 +124,142 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+.home_icon {
+	display: none;
+}
+
+.cell_text {
+	display: none;
+}
+
+.prototip_img {
+	display: none;
+}
 @media (max-width: 68rem) {
-  /*.section-list {
-    margin-top: 2rem;
-    grid-template-columns: 1fr 1fr;
-  }*/
+	.titulo_prototip_digital {
+		display: flex;
+		align-self: center;
+		font-size: 3rem;
+		width: 40rem;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.home_icon {
+		display: flex;
+		height: 5rem;
+		margin-right: 7rem;
+		margin-left: 4rem;
+	}
+
+	.barra_lateral {
+		display: none;
+	}
+
+	.container {
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 0rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 2rem;
+
+	}
+
+	.img_prototipacao_digital {
+		margin-left: 0.6rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-bottom: 1rem;
+	}
+
+	.text_prototipacao_digital {
+		display: none;
+	}
+
+	.cell_text {
+		display: flex;
+		text-align: justify;
+		flex-direction: column;
+	}
+
+	.projeto_jogo {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_portfolio {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_dados {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.projeto_app {
+		width: 22rem;
+		font-size: 1rem;
+	}
+
+	.img_jogo {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_portfolio {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_dados {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.img_app {
+		width: 22rem;
+		height: 15rem;
+		margin: 0rem;
+		margin-top: 4rem;
+		object-fit: fill;
+		border-width: 0.005rem;
+		border-style: solid;
+		border-color: black;
+		border-radius: 1rem;
+	}
+
+	.prototip_img {
+		display: flex;
+		height: 26rem;
+		width: 52rem;
+		align-self: center;
+		margin-left: 4rem;
+		margin-top: 2rem;
+		border-radius: 1rem;
+	}
 }
