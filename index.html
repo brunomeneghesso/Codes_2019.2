@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
   <meta charset="utf-8">
 </head>
 <body class="body">
@@ -27,22 +29,25 @@
       </p>
     </div>
     <div class="projetos">
+   
       <h1 class="title_index">Portfolio do João Luca</h1>
       <h1 class="title_categ">Categorias:</h1>
-      <ul class="section-menu">
-        <li class="section-menu-item">
-          <img class="section-menu-item-image" src="assets/img/pdigital.jpg" alt="prototipacao digital">
-          <a class="section-menu-item-text" href="categoria.html">Prototipação Digital</a>
-        </li>
-        <li class="section-menu-item">
-          <img class="section-menu-item-image" src="assets/img/p.fisica.jpg" alt="prototipacao fisica">
-          <a class="section-menu-item-text" href="categoria.html">Prototipação Física</a>
-        </li>
-        <li class="section-menu-item">
-          <img class="section-menu-item-image" src="assets/img/matematica.jpg" alt="matematica">
-          <a class="section-menu-item-text" href="categoria.html">Matemática</a>
-        </li>
+    ``<ul class="section-list">
+        {{#each biblioteca}}
+          <a class="section-menu-item-text" href="secao.html?key={{@key}}">{{this.secao}}</a>
+        {{/each}}
       </ul>
+     
+
+
+      
+      
+        <ul class="section-menu-item">
+          <img class="section-menu-item-image" src="assets/img/{{this.imagem}}" alt="{{this.secao}}">
+        {{/each}}
+      
+      </ul>
+
     </div>
   </main>
 </body>
