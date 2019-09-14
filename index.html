@@ -19,9 +19,9 @@
     <p class="folhaum">Folhaum</p>
   </header>
   <main class="container">
-    <div class="title_port">
+      <div class="title_port">
       <p>Portfolio do João Luca</p>
-    </div>
+    </div> 
     <div class="descricao">
       <img class="img_soldador" src="assets/img/engenheiro.jpg" alt="foto de um engenheiro soldando">
       <p class="port_descricao">
@@ -29,26 +29,19 @@
       </p>
     </div>
     <div class="projetos">
-   
       <h1 class="title_index">Portfolio do João Luca</h1>
       <h1 class="title_categ">Categorias:</h1>
-    ``<ul class="section-list">
-        {{#each biblioteca}}
-          <a class="section-menu-item-text" href="secao.html?key={{@key}}">{{this.secao}}</a>
+    
+      <ul class="section-menu">
+        {{#each portfolio}}
+        <li class="section-menu-item">
+          <img class="section-menu-item-image" src="assets/img/{{categoria}}.jpg" alt="{{this.name}}">
+          <a class="section-menu-item-text" href="categoria.html?key={{@key}}">{{categoria}}</a>
+        </li>
         {{/each}}
       </ul>
-     
-
-
-      
-      
-        <ul class="section-menu-item">
-          <img class="section-menu-item-image" src="assets/img/{{this.imagem}}" alt="{{this.secao}}">
-        {{/each}}
-      
-      </ul>
-
     </div>
   </main>
 </body>
 </html>
+
