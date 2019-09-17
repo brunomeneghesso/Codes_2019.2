@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<script src="assets/js/codes.js"></script>
-<script src="assets/js/projeto.js"></script>
 <head>
-  <title>{{titulo}}</title>
+  <title class="title">{{titulo}}</title>
   <meta charset="utf-8"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet">
   <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
@@ -19,9 +17,11 @@
     <h1 class="titulo_jogo">{{titulo}}</h1> 
   </header>
   <main class="container">
+    <script src="assets/js/codes.js"></script>
+    <script src="assets/js/projeto.js"></script>
     <div class="img_and_text">
       <p>
-        <img class="img_jogo" src="assets/img/magimons.jpeg" alt="Tela inicial do jogo magimons©">
+        <img class="img_jogo" src="assets/img/{{projeto}}.jpeg" alt="imagem do projeto {{descricao}}">
       </p>
       <div class="text_jogo">
         <h2 class="topic">Descrição:</h2>
@@ -42,17 +42,18 @@
       <li>
         <p class="local_title">Você está em:</p>
         <div class="local_jogo">
-          <a href="index.html">Home</a><p>></p><a href="categoria.html">Projetos de prototipação digital</a><p>></p><a href="projeto.html">Criação de um jogo</a>
+          <a href="index.html">Home</a><p>></p><a href="categoria.html?categoria={{categoria}}">{{categoria_desc}}</a><p>></p><a href="projeto.html?categoria={{categoria}}&projeto={{projeto}}">{{titulo}}</a>
         </div>
       </li>
       <li>
         <img class="barra_pesquisa_categ" src="assets/img/pesquisa.jpg" alt="Imagem ilustrativa da barra de pesquisa">
       </li>
-      <li >
-        <a class="link_projetos_prototipacao_fisica" href="categoria.html">Projetos de prototipação física</a>
-      </li>
-      <li >
-        <a class="link_projetos_matematica" href="categoria.html">Projetos de matemática</a>
+      {{#each portfolio}}
+        <li >
+          <a class="link_projetos_prototipacao_fisica" href="categoria.html?categoria={{@key}}">{{this.categoria}}</a>
+      {{/each}}
+      }
+      }
       </li>
     </ul>
   </main>
