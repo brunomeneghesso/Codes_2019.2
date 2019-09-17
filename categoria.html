@@ -96,9 +96,7 @@
       <li>
         <p class="local_title">Você está em:</p>
         <div class="local">
-          {{#each portfolio}}
-          <a href="index.html">Home</a><p>></p><a href="categoria.html?key={{@key}}">{{this.categoria}}</a>
-          {{/each}}
+          <a href="index.html">Home</a><p>></p>{{#each portfolio}}<a href="categoria.html?key={{@key}}">{{categoria}}</a>{{/each}}
         </div>
       </li>
       <li>

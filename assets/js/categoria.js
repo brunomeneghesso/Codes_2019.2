@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
 
 
-    let context = data['biblioteca'][value]
+    let context = data
     coDesReplace('.local', context)
 
 
