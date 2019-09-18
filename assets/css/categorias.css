@@ -23,7 +23,7 @@
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	background-color: #E8E9EB;
 	border-radius: 0.5rem;
 	margin-bottom: 5rem;
@@ -35,13 +35,13 @@
 	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	font-size: 1rem;
+	justify-content: space-around;
+	font-size: 1.3rem;
 	margin-left: -5%;
 	background-color: #E8E9EB;
 	max-width: 20rem;
 	padding: 1rem;
-	text-align: justify;
+	text-align: left;
 	border-radius: 0.5rem;
 	line-height: 1.2rem;
 	margin-bottom: 5rem;
@@ -76,6 +76,7 @@
 .text_item {
 	font-size: 1.5rem;
 	line-height: 1.5rem;
+	margin-top: 1rem;
 	display: flex;
 	align-self: flex-start;
 	font-family: 'Roboto', sans-serif;
@@ -141,11 +142,10 @@
 	.container {
 		display: flex;
 		justify-content: flex-start;
-		margin-left: 0rem;
+		margin-left: 4.5rem;
 		flex-direction: row;
 		flex-wrap: wrap;
 		padding: 2rem;
-
 	}
 
 	.img_categoria {
@@ -153,41 +153,23 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		padding-bottom: 1rem;
+		justify-content: center;
 	}
 
-	.text_prototipacao_digital {
+	.text_categoria {
 		display: none;
 	}
 
 	.cell_text {
 		display: flex;
-		text-align: justify;
+		text-align: center;
 		flex-direction: column;
-	}
-
-	.projeto {
-		width: 22rem;
-		font-size: 1rem;
-	}
-
-	.projeto_portfolio {
-		width: 22rem;
-		font-size: 1rem;
-	}
-
-	.projeto_dados {
-		width: 22rem;
-		font-size: 1rem;
-	}
-
-	.projeto_app {
-		width: 22rem;
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	.img_item {
-		width: 22rem;
-		height: 15rem;
+		width: 42rem;
+		height: 25rem;
 		margin: 0rem;
 		margin-top: 4rem;
 		object-fit: fill;
@@ -195,6 +177,9 @@
 		border-style: solid;
 		border-color: black;
 		border-radius: 1rem;
+		display: flex;
+		justify-content: center;
+		align-self: center;
 	}
 
 	.prototip_img {
