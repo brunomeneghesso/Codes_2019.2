@@ -4,8 +4,9 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-bottom: 65%;
-	margin-left: 4%;
+	margin-bottom: 15%;
+	max-height: 30rem;
+	margin-left: 6%;
 	background-color: #E8E9EB;
 	font-size: 2rem;
 	border-radius: 0.5rem;
@@ -15,24 +16,26 @@
 	border-style: solid;
 }
 
-.img_prototipacao_digital {
+.img_categoria {
 	order:1;
 	margin-left: 6%;
-	margin-right: -5%;
+	margin-right: 2%;
 	display: flex;
+	align-items: flex-start;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background-color: #E8E9EB;
 	border-radius: 0.5rem;
+	margin-bottom: 5rem;
 }
 
-.text_prototipacao_digital {
+.text_categoria {
 	order:2;
 	margin-right: 6%;
 	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	font-size: 1rem;
 	margin-left: -5%;
 	background-color: #E8E9EB;
@@ -40,73 +43,41 @@
 	padding: 1rem;
 	text-align: justify;
 	border-radius: 0.5rem;
-	line-height: 1.2;
+	line-height: 1.2rem;
+	margin-bottom: 5rem;
+	min-height: 5rem;
 
+
+}
+
+.local_title {
+	margin-bottom: 0.6rem;
 }
 
 .container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	margin-top: 5%;
 }
 
-.img_jogo {
-	width: 21rem;
-	height: 15rem;
+.img_item {
+	min-width: 22rem;
+	height: 16rem;
 	margin: 2rem;
-	object-fit: fill;
+	align-self: flex-start;
+	justify-content: center;
+	display: flex;
+	border-radius: 0.2rem;
 	border-width: 0.005rem;
 	border-style: solid;
 	border-color: black;
 }
 
-.img_portfolio {
-	width: 26rem;
-	height: 15rem;
-	margin: 2rem;
-	object-fit: fill;
-	border-width: 0.005rem;
-	border-style: solid;
-	border-color: black;
-}
-
-.img_dados {
-	width: 26rem;
-	height: 15rem;
-	margin: 2rem;
-	object-fit: fill;
-	border-width: 0.005rem;
-	border-style: solid;
-	border-color: black;
-}
-
-.img_app {
-	width: 26rem;
-	height: 15rem;
-	margin: 2rem;
-	object-fit: fill;
-	border-width: 0.005rem;
-	border-style: solid;
-	border-color: black;
-}
-
-.text_jogo {
+.text_item {
 	font-size: 1.5rem;
-	font-family: 'Roboto', sans-serif;
-}
-
-.text_portfolio {
-	font-size: 1.5rem;
-	font-family: 'Roboto', sans-serif;
-}
-
-.text_dados {
-	font-size: 1.5rem;
-	font-family: 'Roboto', sans-serif;
-}
-
-.text_app {
-	font-size: 1.5rem;
+	line-height: 1.5rem;
+	display: flex;
+	align-self: flex-start;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -114,14 +85,23 @@
 	width: 25rem;
 	height: 5rem;
 	object-fit: fill;
+	margin-top: 2rem;
 }
 
-.link_projetos_prototipacao_fisica {
+.link_projetos{
 	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	text-align: center;
 }
 
-.link_projetos_matematica {
-	font-family: 'Roboto', sans-serif;
+.atalhos {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
 }
 
 .home_icon {
@@ -136,7 +116,7 @@
 	display: none;
 }
 @media (max-width: 68rem) {
-	.titulo_prototip_digital {
+	.titulo {
 		display: flex;
 		align-self: center;
 		font-size: 3rem;
@@ -168,7 +148,7 @@
 
 	}
 
-	.img_prototipacao_digital {
+	.img_categoria {
 		margin-left: 0.6rem;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -185,7 +165,7 @@
 		flex-direction: column;
 	}
 
-	.projeto_jogo {
+	.projeto {
 		width: 22rem;
 		font-size: 1rem;
 	}
@@ -205,43 +185,7 @@
 		font-size: 1rem;
 	}
 
-	.img_jogo {
-		width: 22rem;
-		height: 15rem;
-		margin: 0rem;
-		margin-top: 4rem;
-		object-fit: fill;
-		border-width: 0.005rem;
-		border-style: solid;
-		border-color: black;
-		border-radius: 1rem;
-	}
-
-	.img_portfolio {
-		width: 22rem;
-		height: 15rem;
-		margin: 0rem;
-		margin-top: 4rem;
-		object-fit: fill;
-		border-width: 0.005rem;
-		border-style: solid;
-		border-color: black;
-		border-radius: 1rem;
-	}
-
-	.img_dados {
-		width: 22rem;
-		height: 15rem;
-		margin: 0rem;
-		margin-top: 4rem;
-		object-fit: fill;
-		border-width: 0.005rem;
-		border-style: solid;
-		border-color: black;
-		border-radius: 1rem;
-	}
-
-	.img_app {
+	.img_item {
 		width: 22rem;
 		height: 15rem;
 		margin: 0rem;

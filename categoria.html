@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Projetos de prototipação digital</title>
+  <title>{{this.categoria}}</title>
   <meta charset="utf-8"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet">
   <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
@@ -16,13 +16,14 @@
   <header class="header">
     <img  src="assets/img/logo.jpg" alt="Logo" class="logo">
     <img  src="assets/img/home.png" alt="home icon" class="home_icon">
-    <h1 class="titulo_prototip_digital">PROJETOS DE PROTOTIPAÇÃO DIGITAL</h1>
+    <h1 class="titulo">{{this.categoria}}</h1>
   </header>
   <img src="assets/img/prototipacao.jpg" alt="ilustra prototipacao" class="prototip_img">
   <main class="container">
-    <ol class="text_prototipacao_digital">
-      <li class="projeto_jogo">
-        <a class="text_jogo" href="projeto.html">Criação de um Jogo:</a>
+    <ol class="text_categoria">
+      {{#each projetos}}
+      <li class="projeto">
+        <a class="text_item" href="projeto.html">{{this.descricao}}</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -30,83 +31,35 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </li>
-      <li class="projeto_portifolio">
-        <a class="text_portfolio" href="projeto.html">Criação de um portfolio:</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </li>
-      <li class="`projeto_dados">
-        <a class="text_dados" href="projeto.html">Projeto de ciência dos dados:</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </li>
-      <li class="`projeto_app">
-        <a class="text_app" href="projeto.html">Aplicativo:</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </li>
+      {{/each}}
     </ol>
-    <ol class="img_prototipacao_digital">
+    <ol class="img_categoria">
+      {{#each projetos}}
       <li class="projeto_jogo">
-        <img src="assets/img/magimons.jpeg" alt="Tela de inicio de um dos jogos criados" class="img_jogo">
+        <img src="assets/img/{{@key}}.png" alt="{{@key}}" class="img_item">
         <div class="cell_text">
           <a class="text_app" href="projeto.html">Aplicativo:</a>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </li>
-      <li class="projeto_portfolio">
-        <img src="assets/img/portfolio.jpeg" alt="Exemplo de portfolio" class="img_portfolio">
-        <div class="cell_text">
-          <a class="text_app" href="projeto.html">Aplicativo:</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </li>
-      <li class="projeto_dados">
-        <img src="assets/img/dados.jpeg" alt="Ciencia dos dados" class="img_dados">
-        <div class="cell_text">
-          <a class="text_app" href="projeto.html">Aplicativo:</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </li>
-      <li class="projeto_app">
-        <img src="assets/img/app.jpeg" alt="Imagem ilustrativa de apps" class="img_app">
-        <div class="cell_text">
-          <a class="text_app" href="projeto.html">Aplicativo:</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </li>
+      {{/each}}
     </ol>
     <ul class="barra_lateral">
       <li>
         <p class="local_title">Você está em:</p>
         <div class="local">
-          <a href="index.html">Home</a><p>></p>{{#each portfolio}}<a href="categoria.html?key={{@key}}">{{this.categoria}}</a>{{/each}}
+          <a href="index.html">Home</a><p>></p><p>{{this.categoria}}</p>
         </div>
       </li>
       <li>
         <img class="barra_pesquisa_categ" src="assets/img/pesquisa.jpg" alt="Imagem ilustrativa da barra de pesquisa">
       </li>
-      <li >
-        <a class="link_projetos_prototipacao_fisica" href="categoria.html">Projetos de prototipação física</a>
-      </li>
-      <li>
-        <a class="link_projetos_matematica" href="categoria.html">Projetos de matemática</a>
+      
+      <li class="atalhos">
+        {{#each portfolio}}
+        <a class="link_projetos" href="categoria.html?key={{@key}}">{{categoria}}</a>
+        {{/each}}
       </li>
     </ul>
   </main>

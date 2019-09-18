@@ -12,6 +12,7 @@
 	border-top-left-radius: 3rem;
 	border-top-right-radius: 3rem;
 	border-style: solid;
+	font-weight: bold;
 	border-width: 0.1rem;
 	padding: 0.5rem;
 	min-width: 50rem;
@@ -28,8 +29,8 @@
 	font-size: 1.5rem;
 	display: inline-flex;
 }
-.titulo_prototip_digital {
-	;margin-right: 10%;
+.titulo {
+	;margin-right: 15%;
 }
 .titulo_jogo {
 	;margin-right: 25%;
