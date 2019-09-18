@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
 
 
-    let context = data["portfolio"][value]
+    context = data["portfolio"][value]
     coDesReplace('.local', context)
 
     context = data
@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data["portfolio"][value]
     coDesReplace('.header', context)
 
-    context = data["portfolio"][value]
+    dic = {} 
+    for (let x of Object.keys(data["portfolio"][value]['projetos'])){
+      dic[x]={'categoria':value,'descricao':data["portfolio"][value]['projetos'][x]['descricao']}
+    }
+    context = {'dicionario':dic}
     coDesReplace('.text_categoria', context)
 
-	context = data["portfolio"][value]
+  	context = {'dicionario':dic}
     coDesReplace('.img_categoria', context)
-
-  context = {'classe':value}
-    coDesReplace(".cell_text", context)
-    coDesReplace(".projeto", context)
 
 
   })

@@ -23,19 +23,19 @@
   <img src="assets/img/prototipacao.jpg" alt="ilustra prototipacao" class="prototip_img">
   <main class="container">
     <ol class="text_categoria">
-      {{#each projetos}}
+      {{#each dicionario}}
       <li class="projeto">
-        <a class="text_item" href="projeto.html?categoria={{classe}}&projeto={{@key}}">{{this.descricao}}:</a>
+        <a class="text_item" href="projeto.html?categoria={{this.categoria}}&projeto={{@key}}">{{this.descricao}}:</a>
         <p>Recursos utilizados: {{this.recursos}}.</p>
       </li>
       {{/each}}
     </ol>
     <ol class="img_categoria">
-      {{#each projetos}}
+      {{#each dicionario}}
       <li class="projeto_jogo">
         <img src="assets/img/{{@key}}.png" alt="{{@key}}" class="img_item">
         <div class="cell_text">
-          <a class="text_app" href="projeto.html?categoria={{classe}}&projeto={{@key}}">{{this.descricao}}:</a>
+          <a class="text_app" href="projeto.html?categoria={{this.categoria}}&projeto={{@key}}">{{this.descricao}}:</a>
           <p>Recursos utilizados: {{this.recursos}}.</p>
         </div>
       </li>
