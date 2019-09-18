@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dic = {} 
     for (let x of Object.keys(data["portfolio"][value]['projetos'])){
-      dic[x]={'categoria':value,'descricao':data["portfolio"][value]['projetos'][x]['descricao']}
+      dic[x]={'categoria':value,'descricao':data["portfolio"][value]['projetos'][x]['descricao'],'recursos':data["portfolio"][value]['projetos'][x]['recursos']}
     }
     context = {'dicionario':dic}
     coDesReplace('.text_categoria', context)

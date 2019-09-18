@@ -26,7 +26,7 @@
       {{#each dicionario}}
       <li class="projeto">
         <a class="text_item" href="projeto.html?categoria={{this.categoria}}&projeto={{@key}}">{{this.descricao}}:</a>
-        <p>Recursos utilizados: {{this.recursos}}.</p>
+        <p>Recursos utilizados: {{this.recursos}}</p>
       </li>
       {{/each}}
     </ol>
@@ -36,7 +36,7 @@
         <img src="assets/img/{{@key}}.png" alt="{{@key}}" class="img_item">
         <div class="cell_text">
           <a class="text_app" href="projeto.html?categoria={{this.categoria}}&projeto={{@key}}">{{this.descricao}}:</a>
-          <p>Recursos utilizados: {{this.recursos}}.</p>
+          <p>Recursos utilizados: {{this.recursos}}</p>
         </div>
       </li>
       {{/each}}
