@@ -42,7 +42,7 @@
       <li>
         <p class="local_title">Você está em:</p>
         <div class="local_jogo">
-          <a href="index.html">Home</a><p>></p><a href="categoria.html?categoria={{categoria}}">{{categoria_desc}}</a><p>></p><a href="projeto.html?categoria={{categoria}}&projeto={{projeto}}">{{titulo}}</a>
+          <a href="index.html">Home</a><p>></p><a href="categoria.html?key={{categoria}}">{{categoria_desc}}</a><p>></p><a href="projeto.html?categoria={{categoria}}&projeto={{projeto}}">{{titulo}}</a>
         </div>
       </li>
       <li>
@@ -50,7 +50,7 @@
       </li>
       {{#each portfolio}}
         <li >
-          <a class="link_projetos_prototipacao_fisica" href="categoria.html?categoria={{@key}}">{{this.categoria}}</a>
+          <a class="link_projetos_prototipacao_fisica" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
       {{/each}}
       }
       }

@@ -25,7 +25,7 @@
     <ol class="text_categoria">
       {{#each projetos}}
       <li class="projeto">
-        <a class="text_item" href="projeto.html?key={{@key}}">{{this.descricao}}:</a>
+        <a class="text_item" href="projeto.html?categoria={{classe}}&projeto={{@key}}">{{this.descricao}}:</a>
         <p>Recursos utilizados: {{this.recursos}}.</p>
       </li>
       {{/each}}
@@ -35,7 +35,7 @@
       <li class="projeto_jogo">
         <img src="assets/img/{{@key}}.png" alt="{{@key}}" class="img_item">
         <div class="cell_text">
-          <a class="text_app" href="projeto.html?key={{@key}}">{{this.descricao}}:</a>
+          <a class="text_app" href="projeto.html?categoria={{classe}}&projeto={{@key}}">{{this.descricao}}:</a>
           <p>Recursos utilizados: {{this.recursos}}.</p>
         </div>
       </li>

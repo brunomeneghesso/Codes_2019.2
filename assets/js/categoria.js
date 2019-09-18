@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
 
 
-    context = data["portfolio"][value]
+    let context = data["portfolio"][value]
     coDesReplace('.local', context)
 
     context = data
@@ -24,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	context = data["portfolio"][value]
     coDesReplace('.img_categoria', context)
 
+  context = {'classe':value}
+    coDesReplace(".cell_text", context)
+    coDesReplace(".projeto", context)
 
 
   })
